@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    overflow-x: hidden;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(41, 39, 39, 0.733);
+    color: white;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: red;
+}
+main section{
+    width: 100vw;
+    min-height: 100vh;
+    padding: 100px;    
+}
+section.morale{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(./assests/images/valorant-characters-1.jpeg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+
+}
+nav ul li{
+    color: white;
+    text-decoration: none;
+}   
+.slogan{
+    font-size: 80px;
+    color: rgb(244, 244, 245);
+}
+.mainline{
+    font-size: 26px;
+}
+section.morale p{
+    padding: 20px 0;
+}
+.bton{
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+.bton:hover{
+    background-color: rgba(218, 65, 65, 0.753);
+}
+.bton:active{
+    transform: scale(0.99);
+}
+section.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+}
+.Top-line{
+    text-align: center;
+    font-size: 60px;
+}
+section.about p{
+    padding: 20px 0;
+    letter-spacing: 1px;
+}
+.button{
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 2px solid red;
+    color: black;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    background-color: red;
+}
+.button:active{
+    transform: scale(0.99);
+}
+section.agents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+section.agents h1{
+    font-size: 50px;
+}
+section.agents > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+    
+}
+section.agents h1{
+    color: white;
+    padding-bottom: 10px;
+}
+
+section.agents div .card img{
+    width: 300px;
+}
+.card{
+    width: 300px;
+   background-color: white;
+   color: black;
+   padding-bottom: 20px;
+   text-align: center;
+}
+.card p{
+    padding: 10px;
+}
+section.agents a{
+    text-decoration: unset;
+    margin-top: 20px;
+}
+footer{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+section.registration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;        
+    padding-top: 10px;
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-control input{
+    padding: 5px;
+}
+form > input[type="submit"] {
+    margin-top: 20px;
+}
+
